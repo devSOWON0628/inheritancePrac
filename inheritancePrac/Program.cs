@@ -30,15 +30,13 @@ namespace inheritancePrac
                 item.Sleep();
                 item.Bark();
             }
-
-
+            //UML
             foreach (var item in cats)
             {
                 item.Eat();
                 item.Sleep();
                 item.Meou();
             }
-
 
         }
     }

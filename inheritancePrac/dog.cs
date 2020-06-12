@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace inheritancePrac
 {
-    class dog
+    class dog:animal
     {
         public int Age { get; set; }
         public string Color { get; set; }
@@ -15,16 +15,7 @@ namespace inheritancePrac
             this.Age = 0;
             this.Color = "갈색";
         }
-        public void Eat()
-        {
-            Console.WriteLine("냠냠");
-        }
-
-        public void Sleep()
-        {
-            Console.WriteLine("드르렁");
-
-        }
+       
         public void Bark()
         {
             Console.WriteLine("멍멍");
